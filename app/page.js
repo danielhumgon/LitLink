@@ -18,7 +18,8 @@ export default function Home() {
           alt="logo"
         />
         <h1 className="text-2xl text-center font-bold p-3 text-gray-900 sm:text-4xl sm:w-3/4 sm:m-auto">
-          Your number one destination to all smartphone related info - be smart!
+          Access a vast and diverse collection of e-books and audiobooks, from
+          classic literature to contemporary bestsellers.
         </h1>
         <div className="sm:flex sm:w-2/3 sm:m-auto">
           <Image
@@ -32,7 +33,6 @@ export default function Home() {
             alt="mac store logo"
           />
         </div>
-        
       </div>
 
       {/* Contents Section */}
@@ -40,10 +40,10 @@ export default function Home() {
       {/* Card 1 */}
       <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
         <p className="text-lg">
-          <span className="font-bold">Lorem</span>{" "}
+          <span className="font-bold">Library</span>{" "}
           <span className="text-gray-500">
-            ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            consequatur fuga repellat esse aliquid accusantium commodi facilis.
+            offers an ever-expanding repository of reading materials to satisfy
+            every reader&apos;s taste.
           </span>
         </p>
         <Image className="m-auto" src={phone1} alt="phone 1" />
@@ -52,10 +52,11 @@ export default function Home() {
       {/* Card 2 */}
       <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
         <p className="text-lg">
-          <span className="font-bold">Lorem</span>{" "}
+          <span className="font-bold">Circles</span>{" "}
           <span className="text-gray-500">
-            ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            consequatur fuga repellat esse aliquid accusantium commodi facilis.
+            allows to share your thoughts, insights, and favorite passages with fellow
+            readers, fostering engaging discussions and promoting a sense of
+            community around your favorite books.
           </span>
         </p>
         <Image className="m-auto" src={phone1} alt="phone 1" />
@@ -64,10 +65,11 @@ export default function Home() {
       {/* Card 3 */}
       <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
         <p className="text-lg">
-          <span className="font-bold">Lorem</span>{" "}
+          <span className="font-bold">Recommendations</span>{" "}
           <span className="text-gray-500">
-            ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            consequatur fuga repellat esse aliquid accusantium commodi facilis.
+            analyzes your reading preferences and browsing history to offer
+            personalized book suggestions. Discover new authors, genres, and
+            hidden literary gems tailored to your unique tastes.
           </span>
         </p>
         <Image className="m-auto" src={phone1} alt="phone 1" />
@@ -76,10 +78,11 @@ export default function Home() {
       {/* Card 4 */}
       <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
         <p className="text-lg">
-          <span className="font-bold">Lorem</span>{" "}
+          <span className="font-bold">Journal.</span>{" "}
           <span className="text-gray-500">
-            ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            consequatur fuga repellat esse aliquid accusantium commodi facilis.
+            Jot down notes, highlight passages, and bookmark your favorite
+            moments as you progress through each book. This feature helps you
+            capture your reflections and create a digital reading diary.
           </span>
         </p>
         <Image className="m-auto" src={phone1} alt="phone 1" />
@@ -88,10 +91,11 @@ export default function Home() {
       {/* Card 5 */}
       <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
         <p className="text-lg">
-          <span className="font-bold">Lorem</span>{" "}
+          <span className="font-bold">Club</span>{" "}
           <span className="text-gray-500">
-            ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            consequatur fuga repellat esse aliquid accusantium commodi facilis.
+            sessions with fellow readers from around the world. Experience live
+            discussions, author Q&A sessions, and exclusive book-related events,
+            all within the LitLink Book Club feature.
           </span>
         </p>
         <Image className="m-auto" src={phone1} alt="phone 1" />
@@ -156,8 +160,7 @@ export default function Home() {
 
         <footer className="text-center p-4">
           <p className="text-gray-400 text-xs">
-            &copy; Copyright {new Date().getFullYear()} All rights
-            reserved.
+            &copy; Copyright {new Date().getFullYear()} All rights reserved.
           </p>
         </footer>
       </div>
