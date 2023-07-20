@@ -21,7 +21,7 @@ export default function Home() {
           Access a vast and diverse collection of e-books and audiobooks, from
           classic literature to contemporary bestsellers.
         </h1>
-        <div className="sm:flex sm:w-2/3 sm:m-auto">
+        <div className="sm:flex sm:w-2/3 sm:m-auto sm:mb-8">
           <Image
             className="w-40 h-12 m-auto sm:w-48 sm:h-14"
             src={macstore}
@@ -38,87 +38,96 @@ export default function Home() {
       {/* Contents Section */}
 
       {/* Card 1 */}
-      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
-        <p className="text-lg">
-          <span className="font-bold">Library</span>{" "}
-          <span className="text-gray-500">
-            offers an ever-expanding repository of reading materials to satisfy
-            every reader&apos;s taste.
-          </span>
-        </p>
-        <Image className="m-auto" src={phone1} alt="phone 1" />
+      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
+        <div className="sm:flex flex-row-reverse">
+          <p className="text-lg sm:self-center sm:text-xl">
+            <span className="font-bold">Library</span>{" "}
+            <span className="text-gray-500">
+              offers an ever-expanding repository of reading materials to
+              satisfy every reader&apos;s taste.
+            </span>
+          </p>
+          <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
+        </div>
       </div>
 
       {/* Card 2 */}
-      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
-        <p className="text-lg">
-          <span className="font-bold">Circles</span>{" "}
-          <span className="text-gray-500">
-            allows to share your thoughts, insights, and favorite passages with fellow
-            readers, fostering engaging discussions and promoting a sense of
-            community around your favorite books.
-          </span>
-        </p>
-        <Image className="m-auto" src={phone1} alt="phone 1" />
+      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
+        <div className="sm:flex">
+          <p className="text-lg sm:self-center sm:text-xl">
+            <span className="font-bold">Circles</span>{" "}
+            <span className="text-gray-500">
+              allows to share your thoughts, insights, and favorite passages
+              with fellow readers, fostering engaging discussions and promoting
+              a sense of community around your favorite books.
+            </span>
+          </p>
+          <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
+        </div>
       </div>
 
       {/* Card 3 */}
-      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
-        <p className="text-lg">
-          <span className="font-bold">Recommendations</span>{" "}
-          <span className="text-gray-500">
-            analyzes your reading preferences and browsing history to offer
-            personalized book suggestions. Discover new authors, genres, and
-            hidden literary gems tailored to your unique tastes.
-          </span>
-        </p>
-        <Image className="m-auto" src={phone1} alt="phone 1" />
+      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
+        <div className="sm:flex flex-row-reverse">
+          <p className="text-lg sm:self-center sm:text-xl">
+            <span className="font-bold">Recommendations</span>{" "}
+            <span className="text-gray-500">
+              analyzes your reading preferences and browsing history to offer
+              personalized book suggestions. Discover new authors, genres, and
+              hidden literary gems tailored to your unique tastes.
+            </span>
+          </p>
+          <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
+        </div>
       </div>
-
       {/* Card 4 */}
-      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
-        <p className="text-lg">
-          <span className="font-bold">Journal.</span>{" "}
-          <span className="text-gray-500">
-            Jot down notes, highlight passages, and bookmark your favorite
-            moments as you progress through each book. This feature helps you
-            capture your reflections and create a digital reading diary.
-          </span>
-        </p>
-        <Image className="m-auto" src={phone1} alt="phone 1" />
+      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
+        <div className="sm:flex">
+          <p className="text-lg sm:self-center sm:text-xl">
+            <span className="font-bold">Journal.</span>{" "}
+            <span className="text-gray-500">
+              Jot down notes, highlight passages, and bookmark your favorite
+              moments as you progress through each book. This feature helps you
+              capture your reflections and create a digital reading diary.
+            </span>
+          </p>
+          <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
+        </div>
       </div>
-
       {/* Card 5 */}
-      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
-        <p className="text-lg">
-          <span className="font-bold">Club</span>{" "}
-          <span className="text-gray-500">
-            sessions with fellow readers from around the world. Experience live
-            discussions, author Q&A sessions, and exclusive book-related events,
-            all within the LitLink Book Club feature.
-          </span>
-        </p>
-        <Image className="m-auto" src={phone1} alt="phone 1" />
+      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
+        <div className="sm:flex flex-row-reverse">
+          <p className="text-lg sm:self-center sm:text-xl">
+            <span className="font-bold">Club</span>{" "}
+            <span className="text-gray-500">
+              sessions with fellow readers from around the world. Experience
+              live discussions, author Q&A sessions, and exclusive book-related
+              events, all within the LitLink Book Club feature.
+            </span>
+          </p>
+          <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
+        </div>
       </div>
-
       {/* Card 6 */}
-      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12">
-        <div className="text-lg">
+      <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
+        <div className="text-lg sm:text-xl">
           <h2 className="font-bold">Get on iPad and macOS</h2>
           <span className="text-gray-500">
             Available for all your devices. Never be disconnected in any of your
             devices.
           </span>
-          <Image
-            className="w-40 h-12 mt-4"
-            src={macstore}
-            alt="app store logo"
-          />
-          <Image
-            className="w-40 h-12 mt-3"
-            src={macstore}
-            alt="mac store logo"
-          />
+          <div className="flex gap-3">
+            <Image
+              className="w-40 h-12 mt-4"
+              src={macstore}
+              alt="app store logo"
+            />
+            <Image
+              className="w-40 h-12 mt-4"
+              src={macstore}
+              alt="mac store logo"
+            />
+          </div>
         </div>
         <Image className="m-auto" src={phone6} alt="phone 6" />
       </div>
