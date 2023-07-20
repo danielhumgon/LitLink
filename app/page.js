@@ -44,7 +44,7 @@ export default function Home() {
             <span className="font-bold">Library</span>{" "}
             <span className="text-gray-500">
               offers an ever-expanding repository of reading materials to
-              satisfy every reader&apos;s taste.
+              satisfy every reader&#39;s taste.
             </span>
           </p>
           <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
@@ -102,7 +102,7 @@ export default function Home() {
             <span className="text-gray-500">
               sessions with fellow readers from around the world. Experience
               live discussions, author Q&A sessions, and exclusive book-related
-              events, all within the LitLink Book Club feature.
+              events, all within the LitLink&trade; Book Club feature.
             </span>
           </p>
           <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
@@ -134,34 +134,53 @@ export default function Home() {
 
       {/* FAQ Section */}
 
-      <div className="flex flex-col text-lg mb-8">
+      <div className="flex flex-col text-lg mb-8 sm:p-7">
         {/* Question 1 */}
         <div className="p-5">
-          <h2 className="font-bold mb-3">Do you have any social networks?</h2>
+          <h2 className="font-bold mb-3">
+            How do I join a Reading Circle on LitLink&trade;?
+          </h2>
           <p className="text-gray-700">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil unde
-            itaque officia dicta quod, assumenda nulla, voluptatum in
-            repellendus soluta.
+            Joining a Reading Circle on LitLink&trade; is simple! Just go to the
+            &#34;Reading Circles&#34; section in the app&#39;s main menu. Browse
+            the list of available Reading Circles or use the search feature to
+            find one that interests you. Click on the Reading Circle you want to
+            join. Tap the &#34;Join&#34; button to become a member of the
+            circle.
           </p>
         </div>
 
         {/* Question 2 */}
         <div className="p-5">
-          <h2 className="font-bold mb-3">Do you have any social networks?</h2>
+          <h2 className="font-bold mb-3">
+            Can I access LitLink&#39;s&trade; library offline?
+          </h2>
           <p className="text-gray-700">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil unde
-            itaque officia dicta quod, assumenda nulla, voluptatum in
-            repellendus soluta.
+            Yes, you can access LitLink&#39;s&trade; library offline!
+            LitLink&trade; allows you to download your favorite books to your
+            device, so you can enjoy reading even when you&#39;re not connected
+            to the internet. Simply tap the download icon next to the book you
+            wish to read, and it will be available in your offline library for
+            you to access anytime, anywhere.
           </p>
         </div>
 
         {/* Question 3 */}
         <div className="p-5">
-          <h2 className="font-bold mb-3">Do you have any social networks?</h2>
+          <h2 className="font-bold mb-3">
+            How does LitLink&#39;s&trade; personalized recommendation system
+            work?
+          </h2>
           <p className="text-gray-700">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil unde
-            itaque officia dicta quod, assumenda nulla, voluptatum in
-            repellendus soluta.
+            LitLink&#39;s&trade; personalized recommendation system utilizes
+            advanced algorithms and machine learning to understand your reading
+            preferences. It takes into account factors such as the genres
+            you&#39;ve enjoyed, the books you&#39;ve read, and your interactions
+            within the app. Based on this data, LitLink&trade; suggests books
+            that align with your interests, introducing you to new authors and
+            titles you&#39;re likely to love. The more you use LitLink&trade;,
+            the better the recommendations become, tailoring your reading
+            experience to suit your unique tastes.
           </p>
         </div>
 
