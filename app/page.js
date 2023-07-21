@@ -115,7 +115,7 @@ export default function Home() {
             Available for all your devices. Never be disconnected in any of your
             devices.
           </span>
-          <div className="flex gap-3">
+          <div className="flex flex-col sm:gap-3 sm:flex-row">
             <Image
               className="w-40 h-12 mt-4"
               src={macstore}
