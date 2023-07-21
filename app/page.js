@@ -1,8 +1,7 @@
 import Image from "next/image";
 
 // Assets
-import logo from "./assets/logo.png";
-// import appstore from './assets/appstore.png'
+import logo from "./assets/logo.svg";
 import macstore from "./assets/macstore.png";
 import phone1 from "./assets/phone1.jpeg";
 import phone6 from "./assets/phone6.jpeg";
@@ -17,11 +16,11 @@ export default function Home() {
           src={logo}
           alt="logo"
         />
-        <h1 className="text-2xl text-center font-bold p-3 text-gray-900 sm:text-4xl sm:w-3/4 sm:m-auto">
+        <h1 className="text-2xl text-center font-bold p-3 text-gray-800 sm:text-4xl sm:w-3/4 sm:m-auto lg:w-1/2 lg:text-3xl">
           Access a vast and diverse collection of e-books and audiobooks, from
           classic literature to contemporary bestsellers.
         </h1>
-        <div className="sm:flex sm:w-2/3 sm:m-auto sm:mb-8">
+        <div className="sm:flex sm:w-2/3 sm:m-auto sm:mb-8 lg:w-1/2">
           <Image
             className="w-40 h-12 m-auto sm:w-48 sm:h-14"
             src={macstore}
@@ -40,21 +39,21 @@ export default function Home() {
       {/* Card 1 */}
       <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
         <div className="sm:flex flex-row-reverse">
-          <p className="text-lg sm:self-center sm:text-xl">
+          <p className="text-lg sm:self-center sm:text-xl lg:w-2/4 lg:text-2xl">
             <span className="font-bold">Library</span>{" "}
             <span className="text-gray-500">
               offers an ever-expanding repository of reading materials to
               satisfy every reader&#39;s taste.
             </span>
           </p>
-          <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
+          <Image className="m-auto sm:w-80 lg:w-9/12" src={phone1} alt="phone 1" />
         </div>
       </div>
 
       {/* Card 2 */}
       <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
         <div className="sm:flex">
-          <p className="text-lg sm:self-center sm:text-xl">
+          <p className="text-lg sm:self-center sm:text-xl lg:w-2/4 lg:text-2xl">
             <span className="font-bold">Circles</span>{" "}
             <span className="text-gray-500">
               allows to share your thoughts, insights, and favorite passages
@@ -62,14 +61,14 @@ export default function Home() {
               a sense of community around your favorite books.
             </span>
           </p>
-          <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
+          <Image className="m-auto sm:w-80 lg:w-9/12" src={phone1} alt="phone 1" />
         </div>
       </div>
 
       {/* Card 3 */}
       <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
         <div className="sm:flex flex-row-reverse">
-          <p className="text-lg sm:self-center sm:text-xl">
+          <p className="text-lg sm:self-center sm:text-xl lg:w-2/4 lg:text-2xl">
             <span className="font-bold">Recommendations</span>{" "}
             <span className="text-gray-500">
               analyzes your reading preferences and browsing history to offer
@@ -77,13 +76,13 @@ export default function Home() {
               hidden literary gems tailored to your unique tastes.
             </span>
           </p>
-          <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
+          <Image className="m-auto sm:w-80 lg:w-9/12" src={phone1} alt="phone 1" />
         </div>
       </div>
       {/* Card 4 */}
       <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
         <div className="sm:flex">
-          <p className="text-lg sm:self-center sm:text-xl">
+          <p className="text-lg sm:self-center sm:text-xl lg:w-2/4 lg:text-2xl">
             <span className="font-bold">Journal.</span>{" "}
             <span className="text-gray-500">
               Jot down notes, highlight passages, and bookmark your favorite
@@ -91,13 +90,13 @@ export default function Home() {
               capture your reflections and create a digital reading diary.
             </span>
           </p>
-          <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
+          <Image className="m-auto sm:w-80 lg:w-9/12" src={phone1} alt="phone 1" />
         </div>
       </div>
       {/* Card 5 */}
       <div className="flex flex-col border border-gray-200 rounded-2xl shadow-md m-auto w-11/12 p-8 mb-12 sm:w-3/4">
         <div className="sm:flex flex-row-reverse">
-          <p className="text-lg sm:self-center sm:text-xl">
+          <p className="text-lg sm:self-center sm:text-xl lg:w-2/4 lg:text-2xl">
             <span className="font-bold">Club</span>{" "}
             <span className="text-gray-500">
               sessions with fellow readers from around the world. Experience
@@ -105,7 +104,7 @@ export default function Home() {
               events, all within the LitLink&trade; Book Club feature.
             </span>
           </p>
-          <Image className="m-auto sm:w-80" src={phone1} alt="phone 1" />
+          <Image className="m-auto sm:w-80 lg:w-9/12" src={phone1} alt="phone 1" />
         </div>
       </div>
       {/* Card 6 */}
@@ -129,12 +128,12 @@ export default function Home() {
             />
           </div>
         </div>
-        <Image className="m-auto" src={phone6} alt="phone 6" />
+        <Image className="m-auto lg:w-1/2" src={phone6} alt="phone 6" />
       </div>
 
       {/* FAQ Section */}
 
-      <div className="flex flex-col text-lg mb-8 sm:p-7">
+      <div className="flex flex-col text-lg mb-8 sm:p-7 lg:p-20">
         {/* Question 1 */}
         <div className="p-5">
           <h2 className="font-bold mb-3">
